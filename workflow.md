@@ -10,10 +10,11 @@ Committing User
       Search For "Anon"
         If not found - Inform User and give instructions
         
-        If found - Display to Commit User
+        If found - Display to Commiting User
            No - Do Nothing
            
-        Yes - Send to Tape Library
+        Yes - Send to Tape Library - Write Spotify URL to DB
+
         
         
             
