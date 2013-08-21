@@ -1,4 +1,5 @@
 Workflow
+========
 
 Committing User
   Login
@@ -11,10 +12,24 @@ Committing User
         If not found - Inform User and give instructions
         
         If found - Display to Commiting User
-           No - Do Nothing
-           
-        Yes - Send to Tape Library - Write Spotify URL to DB
+          Progress with Commit
+             No - Do Nothing
+             Yes - Send to Tape Library - Write Spotify URL to DB
 
+
+Listenting User
+  Login
+     Spotify Auth
+       Reject
+         try Again
+         
+    Check on Web site for new Tapes
+      If not found - Display Message
+      If found - Resond with Spotify URLKPrompt Listening User to listen to tape
+        No - Do Nothing
+        Yes - Load play list
+          Anonmise
+          Play
         
         
             
