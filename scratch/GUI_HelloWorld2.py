@@ -1,6 +1,6 @@
 # File: hello1.py
 
-from tkinter import *
+from Tkinter import *
 
 root = Tk()
 
