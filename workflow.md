@@ -2,11 +2,13 @@ Workflow
 ========
 
 Committing User
-  Login
+---------------
+  
+  	Login
      Spotify Auth
        Reject
-         try Again
-         
+         try Again         
+    
     Get Playlists
       Search For "Anon"
         If not found - Inform User and give instructions
@@ -18,12 +20,13 @@ Committing User
 
 
 Listenting User
-  Login
+---------------
+ 	 Login
      Spotify Auth
        Reject
-         try Again
+         try Again 
          
-    Check on Web site for new Tapes
+   	 Check on Web site for new Tapes
       If not found - Display Message
       If found - Resond with Spotify URLKPrompt Listening User to listen to tape
         No - Do Nothing
