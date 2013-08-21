@@ -19,7 +19,7 @@ Committing User
              Yes - Send to Tape Library - Write Spotify URL to DB
 
 
-Listenting User
+Listening User
 ---------------
  	 Login
      Spotify Auth
