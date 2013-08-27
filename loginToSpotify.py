@@ -46,6 +46,7 @@ class loginToSpotifyApp (Tkinter.Tk):
         quitButton["command"] =  self.quit
         quitButton.grid(column =1, row=2)
         
+        #Paint widgets and ready for input
         self.grid_columnconfigure(0,weight=1)
         self.resizable(False, False)
         UserNameEntryBox.focus_set()
@@ -53,10 +54,19 @@ class loginToSpotifyApp (Tkinter.Tk):
     
     # Perform validation on login details enter and start Spotify login
     def doLogin(self):
-        if self.userNameVariable.get() == "" or self.passwordVariable.get() == "":
+        
+        #Get the user credentials and put into local varbiles
+        userCredentials = [self.userNameVariable.get(), self.passwordVariable.get()]
+        
+        print "Username = " + userCredentials[0]
+        print "Password = " + userCredentials[1]
+        
+        if userCredentials[0] == "" or userCredentials[1] == "":
             tkMessageBox.showerror ("Error...", "You must entry both a Username and Password.  Please try again...!")
+            return 
         else:
             tkMessageBox.showinfo("OK...", "We have something to work with")
+            return userCredentials
             
 
 #Main App
